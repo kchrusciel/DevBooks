@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 .form-signin .form-signin-heading,
-.form-signin .checkbox {
+.form-signin .checkbox, .btn {
   margin-bottom: 10px;
 }
 .form-signin .checkbox {
