@@ -1,0 +1,9 @@
+<html layout:decorator="layout">
+<div layout:fragment="content">
+    <h1>Hello</h1>
+    <p>Here will be application</p>
+    <form class="form-signin" th:action="@{/logout}" method="post">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Logout</button>
+    </form>
+</div>
+</html>
